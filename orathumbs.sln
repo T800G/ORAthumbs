@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "orathumbs", "orathumbs\orathumbs.vcproj", "{645DB9FF-5E7C-4EDE-AF83-8F8BA0397FDE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{645DB9FF-5E7C-4EDE-AF83-8F8BA0397FDE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{645DB9FF-5E7C-4EDE-AF83-8F8BA0397FDE}.Debug|Win32.Build.0 = Debug|Win32
+		{645DB9FF-5E7C-4EDE-AF83-8F8BA0397FDE}.Debug|x64.ActiveCfg = Debug|x64
+		{645DB9FF-5E7C-4EDE-AF83-8F8BA0397FDE}.Debug|x64.Build.0 = Debug|x64
+		{645DB9FF-5E7C-4EDE-AF83-8F8BA0397FDE}.Release|Win32.ActiveCfg = Release|Win32
+		{645DB9FF-5E7C-4EDE-AF83-8F8BA0397FDE}.Release|Win32.Build.0 = Release|Win32
+		{645DB9FF-5E7C-4EDE-AF83-8F8BA0397FDE}.Release|x64.ActiveCfg = Release|x64
+		{645DB9FF-5E7C-4EDE-AF83-8F8BA0397FDE}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

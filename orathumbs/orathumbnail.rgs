@@ -1,0 +1,44 @@
+HKLM
+{
+    NoRemove Software
+    {
+		NoRemove Classes
+		{
+			NoRemove .ora
+			{
+				shellex
+				{
+					{BB2E617C-0920-11d1-9A0B-00C04FC2D6C1} = s '{3858F43C-C947-4CD0-AF2C-A6E6E1241B1F}'
+				}
+			}		
+
+			NoRemove CLSID
+			{
+				ForceRemove {3858F43C-C947-4CD0-AF2C-A6E6E1241B1F} = s 'OpenRaster Thumbnail Class'
+				{
+					InprocServer32 = s '%MODULE%'
+					{
+						val ThreadingModel = s 'Apartment'
+					}
+				}
+			}
+		}
+
+		NoRemove Microsoft
+		{
+			NoRemove Windows
+			{
+				NoRemove CurrentVersion
+				{
+					NoRemove 'Shell Extensions'
+					{
+						NoRemove Approved
+						{
+							val {3858F43C-C947-4CD0-AF2C-A6E6E1241B1F} = s 'OpenRaster Thumbnail Class'
+						}
+					}
+				}
+			}
+		}
+    }
+}

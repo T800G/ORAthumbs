@@ -1,0 +1,39 @@
+// orathumbs.idl : IDL source for orathumbs.dll
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (orathumbs.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+	
+	[
+		object,
+		uuid(0C4BCF9D-F9E8-4C55-BB27-8B3D077EBA48),
+		helpstring("IORAThumbnail Interface"),
+		pointer_default(unique)
+	]
+	interface IORAThumbnail : IUnknown
+	{
+	};
+
+[
+	uuid(D868ACB7-CB15-42CC-A7C7-0872DCC383DF),
+	version(1.0),
+	helpstring("ORAthumbs 1.0 Type Library")
+]
+library ORATHUMBSLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	
+	[
+		uuid(3858F43C-C947-4CD0-AF2C-A6E6E1241B1F),
+		helpstring("OpenRaster Thumbnail Class")
+	]
+	coclass ORAThumbnail
+	{
+		[default] interface IORAThumbnail;
+	};
+};
